@@ -1,0 +1,221 @@
+{
+  "forms": [
+    {
+      "id": "form-esevai-income",
+      "title": "Income Certificate Application",
+      "description": "Apply for verified government Income Certificate under E-Sevai services.",
+      "category": "E sevai",
+      "fields": "[]",
+      "fee": 60,
+      "instructions": "1. Family income must be less than 72,000 for urban and rural areas.\n2. Upload clear scanned copy of original Aadhaar card.\n3. Make sure active income certificate details match smart card entries.",
+      "required_fields": "[\"name\",\"name_tamil\",\"dob\",\"phone\",\"aadhar\",\"gender\",\"marital_status\",\"father_name\",\"father_name_tamil\",\"mother_name\",\"mother_name_tamil\",\"community\",\"address\",\"pincode\"]",
+      "required_docs": "[\"photo\",\"aadhar\",\"smart_card\",\"signature\"]",
+      "custom_docs": "[]",
+      "created_at": "2026-05-27T14:23:42.208Z"
+    },
+    {
+      "id": "form-pancard-new",
+      "title": "New PAN Card / Correction",
+      "description": "Official NSDL / UTITSL PAN card application service.",
+      "category": "pan card",
+      "fields": "[{\"id\":\"full_name\",\"label\":\"Full Name as per Aadhaar\",\"type\":\"text\",\"required\":true},{\"id\":\"father_name\",\"label\":\"Father's Full Name\",\"type\":\"text\",\"required\":true},{\"id\":\"gender\",\"label\":\"Gender\",\"type\":\"select\",\"required\":true,\"options\":[\"Male\",\"Female\",\"Other\"]},{\"id\":\"pancard_type\",\"label\":\"Application Type\",\"type\":\"select\",\"required\":true,\"options\":[\"New PAN Card\",\"PAN Correction\",\"Lost PAN Card Reissue\"]}]",
+      "fee": 107,
+      "instructions": "1. Full name must match Aadhaar card spelling exactly.\n2. Ensure date of birth matches the uploaded age proof.\n3. Mobile number should be linked to Aadhaar for e-KYC verification.",
+      "required_fields": "[\"name\",\"dob\",\"phone\",\"aadhar\",\"gender\",\"father_name\",\"address\"]",
+      "required_docs": "[\"photo\",\"aadhar\"]",
+      "custom_docs": "[]",
+      "created_at": "2026-05-27T14:23:42.208Z"
+    },
+    {
+      "id": "form-voter-new",
+      "title": "Voter ID Registration Form",
+      "description": "Register as a new voter or apply for changes in Assembly voting record.",
+      "category": "voter id",
+      "fields": "[{\"id\":\"voter_name\",\"label\":\"Applicant Full Name\",\"type\":\"text\",\"required\":true},{\"id\":\"constituency\",\"label\":\"Assembly Constituency\",\"type\":\"text\",\"required\":true},{\"id\":\"address\",\"label\":\"Full Residential Address\",\"type\":\"textarea\",\"required\":true},{\"id\":\"gender\",\"label\":\"Gender\",\"type\":\"select\",\"required\":true,\"options\":[\"Male\",\"Female\",\"Other\"]}]",
+      "fee": 50,
+      "instructions": "1. Minimum age criteria: Applicant must have completed 18 years.\n2. Address should be in current voting constituency bounds.\n3. Verify mother's and father's names matching family voter IDs.",
+      "required_fields": "[\"name\",\"name_tamil\",\"dob\",\"phone\",\"aadhar\",\"gender\",\"father_name\",\"father_name_tamil\",\"mother_name\",\"mother_name_tamil\",\"address\"]",
+      "required_docs": "[\"photo\",\"aadhar\",\"voter_id\"]",
+      "custom_docs": "[]",
+      "created_at": "2026-05-27T14:23:42.208Z"
+    },
+    {
+      "id": "form-1b620c58",
+      "title": "community certificate ",
+      "description": "the commmunity certificate application for the tamil nadu  e sevai service ",
+      "category": "E sevai",
+      "fields": "[{\"id\":\"field_1780069729270\",\"label\":\"others\",\"type\":\"text\",\"required\":false,\"options\":[]}]",
+      "fee": 60,
+      "instructions": "jotj\nirhg\nfpihreug\nogjit",
+      "required_fields": "[\"name\",\"name_tamil\",\"phone\",\"dob\",\"aadhar\",\"gender\",\"father_name\",\"marital_status\",\"father_name_tamil\",\"mother_name\",\"mother_name_tamil\",\"community\",\"religion\",\"address\",\"state\",\"street_name\",\"taluk\",\"revenue_village\",\"district\",\"door_no\",\"pincode\"]",
+      "required_docs": "[\"photo\",\"aadhar\",\"smart_card\",\"signature\"]",
+      "custom_docs": "[]",
+      "created_at": "2026-05-29T15:48:58.863Z"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "5651542e-f869-4774-a032-da09fb45ae8f",
+      "formId": "892633f7-b394-47a0-9e77-d4da197fd2d2",
+      "responses": {
+        "1779026698420": "khjh",
+        "1779026707270": [
+          "Option 1n n"
+        ]
+      },
+      "submittedAt": "2026-05-26T10:14:09.200Z"
+    },
+    {
+      "id": "62498fdf-a02b-46f8-a0b8-ed836ab150dc",
+      "formId": "2bfe6e1b-40b4-4b62-899d-5c55edbb67af",
+      "responses": {
+        "1779790636920": "Option 1",
+        "1779790661318": "wwdqd",
+        "1779790662621": [
+          "Option 2",
+          "Option 1"
+        ]
+      },
+      "submittedAt": "2026-05-26T10:38:24.660Z"
+    },
+    {
+      "id": "sub-98cf10f6",
+      "form_id": "form-esevai-income",
+      "phone": "9638527410",
+      "dob": "2006-05-29",
+      "aadhar": "947662400747",
+      "responses": "{\"Applicant Name\":\"hdsbvyu\",\"பெயர் ( தமிழில் )\":\"prakash\",\"Date of Birth (DOB)\":\"2006-05-29\",\"Mobile Number\":\"9638527410\",\"Aadhaar Number\":\"947662400747\",\"Gender\":\"Male\",\"Marital Status\":\"Unmarried\",\"Father Name\":\"kallathiyan\",\"தந்தை பெயர் ( தமிழில் )\":\"kallathiyan\",\"Mother Name\":\"petchai \",\"தாயின் பெயர் ( தமிழில் )\":\"petchithai\",\"Community\":\"DNC\",\"Address\":\"hbvhekb\",\"Father / Husband Name\":\"kallathiyan\",\"Annual Income (INR)\":\"5151\",\"Source of Income\":\"Business\",\"Ration Card Number\":\"54655626\"}",
+      "uploaded_docs": "{\"photo\":[\"/uploads/documents/sub_sub-98cf10f6_photo_1.png\"],\"aadhar\":[\"/uploads/documents/sub_sub-98cf10f6_aadhar_1.png\"],\"smart_card\":[\"/uploads/documents/sub_sub-98cf10f6_smart_card_1.png\"]}",
+      "payment_status": "unpaid",
+      "payment_screenshot": "/uploads/screenshots/screenshot_sub-98cf10f6.png",
+      "progress_percent": 25,
+      "progress_desc": "Payment receipt uploaded. Admin is verifying your payment details.",
+      "uploaded_pdf_url": null,
+      "submitted_at": "2026-05-29T15:54:35.577Z"
+    },
+    {
+      "id": "sub-e44e8cda",
+      "form_id": "form-esevai-income",
+      "phone": "9638527410",
+      "dob": "2006-05-29",
+      "aadhar": "947662400747",
+      "responses": "{\"Applicant Name\":\"jd\",\"பெயர் ( தமிழில் )\":\"prakash\",\"Date of Birth (DOB)\":\"2006-05-29\",\"Mobile Number\":\"9638527410\",\"Aadhaar Number\":\"947662400747\",\"Gender\":\"Male\",\"Marital Status\":\"Unmarried\",\"Father\":\"kallathiyan\",\"தந்தை பெயர் ( தமிழில் )\":\"kallathiyan\",\"Mother Name\":\"petchai \",\"தாயின் பெயர் ( தமிழில் )\":\"petchithai\",\"Community\":\"DNC\",\"Address\":\"hbvhekb\",\"Pin Code\":\"933662626\"}",
+      "uploaded_docs": "{\"signature\":[\"/uploads/documents/sub_sub-e44e8cda_signature_1.jpeg\"]}",
+      "payment_status": "unpaid",
+      "payment_screenshot": null,
+      "progress_percent": 10,
+      "progress_desc": "Application submitted successfully. Awaiting payment verification.",
+      "uploaded_pdf_url": null,
+      "submitted_at": "2026-05-29T16:41:02.623Z"
+    },
+    {
+      "id": "sub-e47890f7",
+      "form_id": "form-esevai-income",
+      "phone": "9638527410",
+      "dob": "2006-05-29",
+      "aadhar": "947662400747",
+      "responses": "{\"Applicant Name\":\"jd\",\"பெயர் ( தமிழில் )\":\"lhuhuhi\",\"Date of Birth (DOB)\":\"2006-05-29\",\"Mobile Number\":\"9638527410\",\"Aadhaar Number\":\"947662400747\",\"Gender\":\"Male\",\"Marital Status\":\"Unmarried\",\"Father\":\"kallathiyan\",\"தந்தை பெயர் ( தமிழில் )\":\"kallathiyan\",\"Mother Name\":\"petchai \",\"தாயின் பெயர் ( தமிழில் )\":\"petchithai\",\"Community\":\"DNC\",\"Address\":\"hbvhekb\",\"Pin Code\":\"933662626\"}",
+      "uploaded_docs": null,
+      "payment_status": "unpaid",
+      "payment_screenshot": null,
+      "progress_percent": 10,
+      "progress_desc": "Application submitted successfully. Awaiting payment verification.",
+      "uploaded_pdf_url": null,
+      "submitted_at": "2026-05-29T16:57:40.175Z",
+      "info_request_label": "fnvjern",
+      "info_request_type": "file",
+      "info_request_response": "/uploads/documents/requested_info_sub-e47890f7_b9aa.png"
+    },
+    {
+      "id": "sub-1ed3e55a",
+      "form_id": "form-1b620c58",
+      "phone": "9638527410",
+      "dob": "2006-05-29",
+      "aadhar": "947662400747",
+      "responses": "{\"Applicant Name\":\"jd\",\"பெயர் ( தமிழில் )\":\"Jdgd\",\"Mobile Number\":\"9638527410\",\"Date of Birth (DOB)\":\"2006-05-29\",\"Aadhaar Number\":\"947662400747\",\"Gender\":\"Male\",\"Father\":\"kallathiyan\",\"Marital Status\":\"Unmarried\",\"தந்தை பெயர் ( தமிழில் )\":\"kallathiyan\",\"Mother Name\":\"petchai \",\"தாயின் பெயர் ( தமிழில் )\":\"petchithai\",\"Community\":\"DNC\",\"Religion\":\"Christian\",\"Address\":\"hbvhekb\",\"State\":\"Puducherry\",\"Street Name\":\"Ggg\",\"Taluk\":\"Hhu\",\"Revenue Village ( பாஞ்சாயத்து )\":\"Ggh\",\"District\":\"Tiruvannamalai\",\"Door no\":\"Gj\",\"Pin Code\":\"933662626\",\"others\":\"Hgg\"}",
+      "uploaded_docs": null,
+      "payment_status": "unpaid",
+      "payment_screenshot": null,
+      "progress_percent": 10,
+      "progress_desc": "Application submitted successfully. Awaiting payment verification.",
+      "uploaded_pdf_url": null,
+      "submitted_at": "2026-05-29T17:09:54.364Z"
+    },
+    {
+      "id": "sub-afb6f581",
+      "form_id": "form-1b620c58",
+      "phone": "9638527410",
+      "dob": "2006-05-29",
+      "aadhar": "947662400747",
+      "responses": "{\"Applicant Name\":\"jd\",\"பெயர் ( தமிழில் )\":\"cefe\",\"Mobile Number\":\"9638527410\",\"Date of Birth (DOB)\":\"2006-05-29\",\"Aadhaar Number\":\"947662400747\",\"Gender\":\"Male\",\"Father\":\"kallathiyan\",\"Marital Status\":\"Unmarried\",\"தந்தை பெயர் ( தமிழில் )\":\"kallathiyan\",\"Mother Name\":\"petchai \",\"தாயின் பெயர் ( தமிழில் )\":\"petchithai\",\"Community\":\"DNC\",\"Religion\":\"Hindu\",\"Address\":\"hbvhekb\",\"State\":\"Tamil Nadu\",\"Street Name\":\"rger\",\"Taluk\":\"dvdsd\",\"Revenue Village ( பாஞ்சாயத்து )\":\"vsdbfdb\",\"District\":\"Tirunelveli\",\"Door no\":\"6556\",\"Pin Code\":\"933662626\",\"others\":\"265656\"}",
+      "uploaded_docs": null,
+      "payment_status": "unpaid",
+      "payment_screenshot": null,
+      "progress_percent": 10,
+      "progress_desc": "Application submitted successfully. Awaiting payment verification.",
+      "uploaded_pdf_url": null,
+      "submitted_at": "2026-05-30T16:10:05.968Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "E-Sevai Quick Services",
+      "description": "Apply for Income Certificate, Community Certificate, and Nativity Certificate easily through our portal. Processing time: 3-5 working days.",
+      "img_url": "",
+      "apply_url": "/user?tab=apply&category=E%20sevai",
+      "created_at": "2026-05-27T14:23:42.207Z"
+    },
+    {
+      "id": 2,
+      "title": "New PAN Card & Corrections",
+      "description": "Get a new PAN Card in 7 working days or make corrections in your existing PAN Card (Name, DOB, or Photo) with simple document submission.",
+      "img_url": "",
+      "apply_url": "/user?tab=apply&category=pan%20card",
+      "created_at": "2026-05-27T14:23:42.208Z"
+    },
+    {
+      "id": 3,
+      "title": "Voter ID Registration",
+      "description": "New Voter Registration, address updates, or replacement voter ID card applications are active. Track status securely.",
+      "img_url": "",
+      "apply_url": "/user?tab=apply&category=voter%20id",
+      "created_at": "2026-05-27T14:23:42.208Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "jd",
+      "name_tamil": "cefe",
+      "dob": "2006-05-29",
+      "phone": "9638527410",
+      "aadhar": "947662400747",
+      "gender": "Male",
+      "marital_status": "Unmarried",
+      "father_name": "kallathiyan",
+      "father_name_tamil": "kallathiyan",
+      "mother_name": "petchai ",
+      "mother_name_tamil": "petchithai",
+      "community": "DNC",
+      "address": "hbvhekb",
+      "photo_url": "/uploads/documents/user_1_photo_1.png",
+      "aadhar_url_1": "/uploads/documents/user_1_aadhar_1.png",
+      "aadhar_url_2": null,
+      "smart_card_url_1": "/uploads/documents/user_1_smart_card_1.png",
+      "smart_card_url_2": null,
+      "voter_id_url_1": null,
+      "voter_id_url_2": null,
+      "created_at": "2026-05-29T15:51:49.097Z",
+      "pincode": "933662626",
+      "signature_url_1": "/uploads/documents/user_1_signature_1.jpeg",
+      "religion": "Hindu",
+      "state": "Tamil Nadu",
+      "district": "Tirunelveli",
+      "taluk": "dvdsd",
+      "revenue_village": "vsdbfdb",
+      "street_name": "rger",
+      "door_no": "6556"
+    }
+  ]
+}
